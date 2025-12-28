@@ -1,0 +1,28 @@
+:root {
+  /* Core background */
+  --bg-main: #120016;
+  --bg-glow-1: #4a145f;
+  --bg-glow-2: #2a0036;
+
+  /* Glass */
+  --glass-bg: rgba(255, 255, 255, 0.08);
+  --glass-border: rgba(255, 255, 255, 0.18);
+  --glass-blur: 22px;
+
+  /* Purple system */
+  --purple-1: #b84cff;
+  --purple-2: #ff8ad8;
+
+  /* Text */
+  --text-main: #ffffff;
+  --text-muted: rgba(255, 255, 255, 0.7);
+
+  /* Radius */
+  --radius-xl: 28px;
+  --radius-pill: 999px;
+
+  /* Shadow */
+  --shadow-glass:
+    0 30px 60px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
