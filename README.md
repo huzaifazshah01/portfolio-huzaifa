@@ -1,36 +1,157 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Huzaifa Shah - Portfolio Website
 
-First, run the development server:
+This repository contains the source code for my personal portfolio website.  
+The site presents my professional profile, technical skill set, and selected projects, with a strong focus on clean design, performance, and responsive behavior across devices.
+
+The application is built using modern web technologies and is optimized for deployment on Vercel.
+
+---
+
+## Overview
+
+The portfolio is designed to reflect a practical, production-oriented approach to frontend development.  
+It emphasizes clarity, consistency, and usability while maintaining a visually refined interface.
+
+Key objectives:
+- Present professional information in a structured, readable format
+- Demonstrate frontend engineering best practices
+- Ensure reliable performance on both desktop and mobile devices
+
+---
+
+## Features
+
+- Server-rendered React application using Next.js (App Router)
+- Modular component architecture
+- Responsive layout for desktop, tablet, and mobile
+- Glassmorphism-inspired UI with consistent spacing and typography
+- Scroll-based reveal animations for section transitions
+- Section-based navigation with smooth scrolling
+- Optimized static assets served from the public directory
+- Production-ready deployment configuration
+
+---
+
+## Technology Stack
+
+- **Framework:** Next.js
+- **Language:** TypeScript / JavaScript
+- **UI Layer:** React
+- **Styling:** CSS with inline layout control
+- **Assets:** PNG / SVG icons and images
+- **Deployment:** Vercel
+
+---
+
+## Project Structure
+
+```
+
+portfolio-huzaifa/
+├── public/
+│   ├── icons/
+│   ├── images/
+│   └── myphoto.jpeg
+│
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── globals.css
+│   │
+│   └── components/
+│       ├── Navbar.tsx
+│       ├── Hero.tsx
+│       ├── About.tsx
+│       ├── Skills.tsx
+│       ├── Services.tsx
+│       ├── Projects.tsx
+│       ├── Contact.tsx
+│       └── Reveal.tsx
+│
+├── package.json
+├── next.config.js
+└── README.md
+
+```
+
+---
+
+## Local Development
+
+### Prerequisites
+- Node.js (v18 or later)
+- npm or yarn
+
+### Setup
+
+```bash
+git clone https://github.com/huzaifazshah01/portfolio-huzaifa.git
+cd portfolio-huzaifa
+npm install
+````
+
+### Run the application
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be available at:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Production Build
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This validates the application for production deployment.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The project is configured for seamless deployment on Vercel.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deployment steps:
+
+1. Push the repository to GitHub
+2. Import the repository into Vercel
+3. Deploy using the default Next.js configuration
+
+Subsequent commits automatically trigger redeployment.
+
+---
+
+## Responsiveness
+
+* Desktop: Multi-column layouts for better information density
+* Mobile: Single-column stacking for readability and accessibility
+* Navigation adapts to smaller viewports without compromising usability
+
+---
+
+## Contact Form
+
+The contact form is currently implemented as a frontend interface.
+Backend email handling can be added if required.
+
+---
+
+## Purpose
+
+This project serves as:
+
+* A professional portfolio
+* A demonstration of frontend engineering capabilities
+* A reference implementation of a clean, maintainable Next.js application
+
+---
