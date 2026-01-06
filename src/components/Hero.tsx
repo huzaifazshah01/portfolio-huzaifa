@@ -120,7 +120,7 @@ export default function Hero() {
               <img src="./linkedin.png" width={30} />
             </a>
             <a
-              href="https://instagram.com/slayyy__771"
+              href="https://instagram.com/huzzzzthere"
               target="_blank"
               aria-label="Instagram"
             >
