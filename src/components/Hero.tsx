@@ -83,7 +83,7 @@ export default function Hero() {
             </button>
 
             <a
-              href="./Huzaifa Zahid Shah Resume.pdf"
+              href="./HuzaifaZahid_CV.pdf"
               download
               style={{
                 padding: '12px 26px',
@@ -120,7 +120,7 @@ export default function Hero() {
               <img src="./linkedin.png" width={30} />
             </a>
             <a
-              href="https://instagram.com/huzzzzthere"
+              href="https://instagram.com/dev.huzaifazshah"
               target="_blank"
               aria-label="Instagram"
             >
